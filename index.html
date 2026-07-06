@@ -1,0 +1,1092 @@
+<!DOCTYPE html>
+<html><head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="14083fa2-4037-4f39-8b7d-cd42712f6861"></script>
+
+</head>
+<body>
+<x-dc>
+<helmet>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <style>/* cyrillic-ext */
+@font-face {
+  font-family: 'IBM Plex Mono';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("d3928716-5396-48d3-82f5-bf27745025d3") format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C8A, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'IBM Plex Mono';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("178af71b-6f41-4f32-84af-67dbdec8a24e") format('woff2');
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'IBM Plex Mono';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("dc92a178-4e26-4da8-8236-24305757e3c3") format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'IBM Plex Mono';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("a52d9a8d-cadd-4981-8efa-0500d21dd0b8") format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'IBM Plex Mono';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("4fae6913-6580-4991-b31b-d01ca39d2469") format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* cyrillic-ext */
+@font-face {
+  font-family: 'IBM Plex Mono';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url("b687b14b-45fc-413f-92b5-2c067fd1378b") format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C8A, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'IBM Plex Mono';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url("f0f3170d-d266-43ce-a36e-e3d58f538f1d") format('woff2');
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'IBM Plex Mono';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url("d52e1d77-9045-4edd-b809-0c0e5c0c2ed7") format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'IBM Plex Mono';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url("035dbb25-6164-45b9-8fa0-c8075e16514d") format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'IBM Plex Mono';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url("162a6378-c1e9-45d9-861c-df17f764367c") format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Newsreader';
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: url("0630d627-1b32-413e-9448-ad1f87ffb6e6") format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Newsreader';
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: url("ad2e205c-3ef5-41df-90cd-8835fb5e854c") format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Newsreader';
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: url("275b3037-f501-497f-b054-7f2db91fe1d1") format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Newsreader';
+  font-style: italic;
+  font-weight: 500;
+  font-display: swap;
+  src: url("0630d627-1b32-413e-9448-ad1f87ffb6e6") format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Newsreader';
+  font-style: italic;
+  font-weight: 500;
+  font-display: swap;
+  src: url("ad2e205c-3ef5-41df-90cd-8835fb5e854c") format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Newsreader';
+  font-style: italic;
+  font-weight: 500;
+  font-display: swap;
+  src: url("275b3037-f501-497f-b054-7f2db91fe1d1") format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+</style>
+  <style>
+    html, body { margin:0; padding:0; background:#0c0e12; height:100%; overflow:hidden; }
+    * { box-sizing:border-box; -webkit-tap-highlight-color:transparent; }
+    textarea:focus, input:focus { outline:none; }
+    @keyframes sospulse { 0%,100% { box-shadow:0 0 0 0 rgba(214,86,74,0.55); } 50% { box-shadow:0 0 0 6px rgba(214,86,74,0); } }
+  </style>
+</helmet>
+
+<div style="position:fixed;inset:0;display:flex;flex-direction:column;color:#e8e6e1;font-family:Helvetica,Arial,sans-serif;user-select:none;-webkit-user-select:none">
+
+  <sc-if value="{{ isPatient }}" hint-placeholder-val="{{ true }}">
+    <div style="flex:1;display:flex;flex-direction:column;min-height:0">
+
+      <div style="display:flex;align-items:center;justify-content:space-between;padding:12px 14px;flex:0 0 auto;z-index:5">
+        <button onclick="{{ openSos }}" title="emergency" style="padding:8px 15px;border-radius:16px;border:1px solid rgba(214,86,74,0.6);background:rgba(214,86,74,0.9);color:#fff;font-family:'IBM Plex Mono',monospace;font-size:12px;letter-spacing:0.16em;cursor:pointer;animation:sospulse 2.6s ease-in-out infinite">SOS</button>
+        <div style="display:flex;gap:2px;background:rgba(255,255,255,0.05);border:1px solid rgba(255,255,255,0.08);border-radius:18px;padding:3px">
+          <button onclick="{{ toPatient }}" style="padding:6px 14px;border:none;border-radius:14px;font-size:10px;letter-spacing:0.13em;cursor:pointer;font-family:'IBM Plex Mono',monospace;background:{{ patBg }};color:{{ patFg }}">PATIENT</button>
+          <button onclick="{{ toResearcher }}" style="padding:6px 14px;border:none;border-radius:14px;font-size:10px;letter-spacing:0.13em;cursor:pointer;font-family:'IBM Plex Mono',monospace;background:{{ resBg }};color:{{ resFg }}">RESEARCH</button>
+        </div>
+        <button onclick="{{ cycleLang }}" title="output language" style="width:44px;height:34px;border-radius:16px;border:1px solid rgba(255,255,255,0.16);background:rgba(255,255,255,0.05);color:#e8e6e1;font-size:12px;letter-spacing:0.1em;cursor:pointer;font-family:'IBM Plex Mono',monospace">{{ langLabel }}</button>
+      </div>
+
+      <div style="flex:1;display:flex;flex-direction:column;align-items:center;min-height:0;padding:0 8px 12px;gap:10px">
+        <div style="flex:1;width:100%;max-width:680px;min-height:0;display:flex;align-items:center;justify-content:center;position:relative">
+          <canvas ref="{{ setCanvas }}" onpointerdown="{{ onDown }}" onpointermove="{{ onMove }}" onpointerup="{{ onUp }}" onpointercancel="{{ onUp }}" style="touch-action:none;cursor:pointer;border-radius:18px"></canvas>
+          <sc-if value="{{ spaceDoneVisible }}" hint-placeholder-val="{{ false }}">
+            <button onclick="{{ doneSpace }}" style="position:absolute;bottom:14px;right:14px;padding:9px 26px;border-radius:20px;border:1px solid rgba(255,255,255,0.28);background:rgba(20,22,28,0.9);color:#e8e6e1;font-family:'IBM Plex Mono',monospace;font-size:11px;letter-spacing:0.2em;cursor:pointer;z-index:6">DONE</button>
+          </sc-if>
+          <sc-if value="{{ spaceOpen }}" hint-placeholder-val="{{ false }}">
+            <div style="position:absolute;top:12px;left:50%;transform:translateX(-50%);font-family:'IBM Plex Mono',monospace;font-size:10px;letter-spacing:0.12em;color:rgba(232,230,225,0.55);text-align:center;max-width:90%;pointer-events:none">{{ spaceHint }}</div>
+          </sc-if>
+        </div>
+
+        <div style="display:flex;align-items:center;gap:24px;flex:0 0 auto">
+          <button onclick="{{ removeVertex }}" title="remove node" style="width:40px;height:40px;border-radius:50%;border:1px solid rgba(255,255,255,0.16);background:transparent;color:#e8e6e1;font-size:22px;cursor:pointer;opacity:{{ minusOpacity }};line-height:1">−</button>
+          <button onclick="{{ addVertex }}" title="add node" style="width:40px;height:40px;border-radius:50%;border:1px solid rgba(255,255,255,0.16);background:transparent;color:#e8e6e1;font-size:22px;cursor:pointer;opacity:{{ plusOpacity }};line-height:1">+</button>
+        </div>
+
+        <div style="display:flex;align-items:center;gap:10px;flex:0 0 auto;opacity:{{ submitOpacity }}">
+          <button onclick="{{ subWh }}" title="What is this?" style="width:46px;height:46px;border-radius:50%;border:1px solid rgba(255,255,255,0.18);background:rgba(255,255,255,0.04);cursor:pointer;display:flex;align-items:center;justify-content:center">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#e8e6e1" stroke-width="1.7" stroke-linecap="round"><circle cx="10.5" cy="10.5" r="6.5"></circle><line x1="15.5" y1="15.5" x2="20" y2="20"></line></svg>
+          </button>
+          <button onclick="{{ subCa }}" title="What could cause this?" style="width:46px;height:46px;border-radius:50%;border:1px solid rgba(255,255,255,0.18);background:rgba(255,255,255,0.04);cursor:pointer;display:flex;align-items:center;justify-content:center">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#e8e6e1" stroke-width="1.7" stroke-linecap="round"><circle cx="12" cy="12" r="9"></circle><path d="M9.2 9.2a2.8 2.8 0 0 1 5.4 1c0 1.9-2.6 2-2.6 3.6"></path><circle cx="12" cy="17.2" r="0.6" fill="#e8e6e1"></circle></svg>
+          </button>
+          <button onclick="{{ subDu }}" title="How long might this last?" style="width:46px;height:46px;border-radius:50%;border:1px solid rgba(255,255,255,0.18);background:rgba(255,255,255,0.04);cursor:pointer;display:flex;align-items:center;justify-content:center">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#e8e6e1" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M7 4h10M7 20h10M8 4c0 4 8 4 8 8s-8 4-8 8M16 4c0 4-8 4-8 8"></path></svg>
+          </button>
+          <button onclick="{{ subSe }}" title="What can I do right now?" style="width:46px;height:46px;border-radius:50%;border:1px solid rgba(255,255,255,0.18);background:rgba(255,255,255,0.04);cursor:pointer;display:flex;align-items:center;justify-content:center">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#e8e6e1" stroke-width="1.7" stroke-linejoin="round"><rect x="3.5" y="8.5" width="17" height="7" rx="3.5" transform="rotate(-40 12 12)"></rect><circle cx="12" cy="12" r="0.7" fill="#e8e6e1" stroke="none"></circle></svg>
+          </button>
+          <button onclick="{{ subEs }}" title="Do I need to see a doctor?" style="width:46px;height:46px;border-radius:50%;border:1px solid rgba(214,86,74,0.55);background:rgba(214,86,74,0.12);cursor:pointer;display:flex;align-items:center;justify-content:center">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#e0655e" stroke-width="2.2" stroke-linecap="round"><line x1="12" y1="5" x2="12" y2="19"></line><line x1="5" y1="12" x2="19" y2="12"></line></svg>
+          </button>
+        </div>
+
+        <div style="min-height:70px;display:flex;flex-direction:column;align-items:center;justify-content:flex-start;gap:6px;flex:0 0 auto;padding:0 12px">
+          <sc-if value="{{ showPhrase }}" hint-placeholder-val="{{ false }}">
+            <div style="font-family:'Newsreader',Georgia,serif;font-style:italic;font-size:20px;line-height:1.5;color:#ded9cd;text-align:center;max-width:44ch;opacity:{{ phraseOpacity }};transition:opacity 700ms ease">{{ phrase }}</div>
+          </sc-if>
+          <div style="font-family:'IBM Plex Mono',monospace;font-size:11px;letter-spacing:0.14em;color:rgba(232,230,225,0.5);text-align:center;opacity:{{ phraseOpacity }};transition:opacity 700ms ease">{{ actionLabel }}</div>
+        </div>
+      </div>
+    </div>
+  </sc-if>
+
+  <sc-if value="{{ isResearcher }}" hint-placeholder-val="{{ false }}">
+    <div style="flex:1;display:flex;flex-direction:column;min-height:0;background:#0e1015">
+
+      <div style="display:flex;align-items:center;gap:14px;padding:10px 14px;border-bottom:1px solid rgba(255,255,255,0.08);flex-wrap:wrap;font-family:'IBM Plex Mono',monospace;font-size:11px;flex:0 0 auto">
+        <div style="display:flex;gap:2px;background:rgba(255,255,255,0.05);border:1px solid rgba(255,255,255,0.08);border-radius:14px;padding:2px">
+          <button onclick="{{ toPatient }}" style="padding:5px 12px;border:none;border-radius:12px;font-size:10px;letter-spacing:0.1em;cursor:pointer;font-family:'IBM Plex Mono',monospace;background:{{ patBg }};color:{{ patFg }}">PATIENT</button>
+          <button onclick="{{ toResearcher }}" style="padding:5px 12px;border:none;border-radius:12px;font-size:10px;letter-spacing:0.1em;cursor:pointer;font-family:'IBM Plex Mono',monospace;background:{{ resBg }};color:{{ resFg }}">RESEARCH</button>
+        </div>
+        <span style="color:rgba(232,230,225,0.4)">session</span><span style="color:rgba(232,230,225,0.8)">{{ sessionId }}</span>
+        <span style="color:rgba(232,230,225,0.4)">participant</span>
+        <input value="{{ participantId }}" onchange="{{ onParticipant }}" placeholder="P-000" style="width:90px;background:rgba(255,255,255,0.05);border:1px solid rgba(255,255,255,0.12);border-radius:6px;color:#e8e6e1;font-family:'IBM Plex Mono',monospace;font-size:11px;padding:5px 8px">
+        <div style="display:flex;gap:2px;background:rgba(255,255,255,0.05);border:1px solid rgba(255,255,255,0.08);border-radius:12px;padding:2px">
+          <button onclick="{{ setIfaceFirst }}" style="padding:5px 10px;border:none;border-radius:10px;font-size:10px;cursor:pointer;font-family:'IBM Plex Mono',monospace;background:{{ ifaceBg }};color:{{ ifaceFg }}">Interface First</button>
+          <button onclick="{{ setTextFirst }}" style="padding:5px 10px;border:none;border-radius:10px;font-size:10px;cursor:pointer;font-family:'IBM Plex Mono',monospace;background:{{ textFirstBg }};color:{{ textFirstFg }}">Text First</button>
+        </div>
+        <div style="display:flex;gap:2px;background:rgba(255,255,255,0.05);border:1px solid rgba(255,255,255,0.08);border-radius:12px;padding:2px">
+          <button onclick="{{ setOpenai }}" style="padding:5px 10px;border:none;border-radius:10px;font-size:10px;cursor:pointer;font-family:'IBM Plex Mono',monospace;background:{{ openaiBg }};color:{{ openaiFg }}">GPT-4o</button>
+          <button onclick="{{ setGemini }}" style="padding:5px 10px;border:none;border-radius:10px;font-size:10px;cursor:pointer;font-family:'IBM Plex Mono',monospace;background:{{ geminiBg }};color:{{ geminiFg }}">Gemini 1.5</button>
+        </div>
+        <span style="color:rgba(232,230,225,0.4)">lang {{ langLabel }}</span>
+        <button onclick="{{ saveSession }}" style="margin-left:auto;padding:7px 14px;border-radius:6px;border:1px solid rgba(255,255,255,0.35);background:rgba(232,230,225,0.12);color:#e8e6e1;font-family:'IBM Plex Mono',monospace;font-size:11px;letter-spacing:0.1em;cursor:pointer">SAVE SESSION</button>
+        <button onclick="{{ exportCsv }}" style="padding:7px 14px;border-radius:6px;border:1px solid rgba(255,255,255,0.2);background:transparent;color:#e8e6e1;font-family:'IBM Plex Mono',monospace;font-size:11px;letter-spacing:0.1em;cursor:pointer">{{ csvLabel }}</button>
+      </div>
+
+      <div style="flex:1;display:flex;min-height:0">
+        <div style="flex:1;min-width:0;display:flex;flex-direction:column;border-right:1px solid rgba(255,255,255,0.06)">
+          <div style="padding:8px 12px;font-family:'IBM Plex Mono',monospace;font-size:10px;letter-spacing:0.18em;color:rgba(232,230,225,0.45);border-bottom:1px solid rgba(255,255,255,0.05)">GESTURE STREAM</div>
+          <div style="flex:1;overflow:auto;padding:8px 12px;font-family:'IBM Plex Mono',monospace;font-size:11px;line-height:1.7;color:#7ecb8a">
+            <sc-for list="{{ gestureRows }}" as="g" hint-placeholder-count="0">
+              <div><span style="color:rgba(126,203,138,0.5)">[{{ g.ts }}]</span> {{ g.line }}</div>
+            </sc-for>
+            <sc-if value="{{ gestureEmpty }}" hint-placeholder-val="{{ true }}">
+              <div style="color:rgba(232,230,225,0.3)">no events yet</div>
+            </sc-if>
+          </div>
+        </div>
+
+        <div style="flex:1;min-width:0;display:flex;flex-direction:column;border-right:1px solid rgba(255,255,255,0.06)">
+          <div style="padding:8px 12px;font-family:'IBM Plex Mono',monospace;font-size:10px;letter-spacing:0.18em;color:rgba(232,230,225,0.45);border-bottom:1px solid rgba(255,255,255,0.05)">LIVE PAYLOAD</div>
+          <div style="flex:1;overflow:auto;padding:14px 12px;display:flex;flex-direction:column;gap:14px">
+            <div style="font-family:'IBM Plex Mono',monospace;font-size:15px;line-height:1.7;word-break:break-all">
+              <sc-for list="{{ payloadTokens }}" as="tk" hint-placeholder-count="1">
+                <span style="color:{{ tk.color }}">{{ tk.text }}</span>
+              </sc-for>
+            </div>
+            <div style="font-family:'IBM Plex Mono',monospace;font-size:11px;line-height:1.9;color:rgba(232,230,225,0.55)">
+              <div>Payload characters: {{ payloadChars }}</div>
+              <div>Estimated input tokens: ~{{ estToks }}</div>
+              <div style="color:rgba(224,164,80,0.8)">{{ actualNote }}</div>
+            </div>
+          </div>
+        </div>
+
+        <div style="flex:1;min-width:0;display:flex;flex-direction:column">
+          <div style="padding:8px 12px;font-family:'IBM Plex Mono',monospace;font-size:10px;letter-spacing:0.18em;color:rgba(232,230,225,0.45);border-bottom:1px solid rgba(255,255,255,0.05);display:flex;align-items:center;justify-content:space-between">
+            <span>AI PLAYGROUND</span>
+            <button onclick="{{ forceTrigger }}" style="padding:5px 12px;border-radius:6px;border:1px solid rgba(255,255,255,0.2);background:transparent;color:#e8e6e1;font-family:'IBM Plex Mono',monospace;font-size:10px;letter-spacing:0.1em;cursor:pointer">{{ forceLabel }}</button>
+          </div>
+          <div style="flex:1;overflow:auto;padding:14px 12px">
+            <sc-if value="{{ hasResult }}" hint-placeholder-val="{{ false }}">
+              <div style="display:flex;flex-direction:column;gap:12px">
+                <div style="font-family:'Newsreader',Georgia,serif;font-style:italic;font-size:16px;line-height:1.5;color:#ded9cd">{{ rPhrase }}</div>
+                <div style="font-family:'IBM Plex Mono',monospace;font-size:11px;line-height:1.9;color:rgba(232,230,225,0.6)">
+                  <div>TRANSFORM &nbsp;{{ rTransform }}</div>
+                  <div>URGENCY &nbsp;&nbsp;{{ rUrg }}</div>
+                  <div>ACTION &nbsp;&nbsp;&nbsp;{{ rAction }}</div>
+                  <div style="margin-top:8px;color:rgba(232,230,225,0.4)">in {{ rIn }} · out {{ rOut }} tok</div>
+                  <div style="color:rgba(232,230,225,0.4)">{{ rModel }} · {{ rLang }} · q:{{ rQ }}</div>
+                  <div style="color:rgba(232,230,225,0.4)">{{ rTs }}</div>
+                </div>
+              </div>
+            </sc-if>
+            <sc-if value="{{ noResult }}" hint-placeholder-val="{{ true }}">
+              <div style="font-family:'IBM Plex Mono',monospace;font-size:11px;color:rgba(232,230,225,0.3)">no submissions yet</div>
+            </sc-if>
+          </div>
+        </div>
+      </div>
+
+      <div style="flex:0 0 auto;border-top:1px solid rgba(255,255,255,0.08);padding:14px;max-height:38vh;overflow:auto">
+        <div style="font-family:'IBM Plex Mono',monospace;font-size:10px;letter-spacing:0.18em;color:rgba(232,230,225,0.45);margin-bottom:10px">TEXT BASELINE CONDITION</div>
+        <div style="font-size:13px;line-height:1.6;color:rgba(232,230,225,0.7);max-width:640px;margin-bottom:8px">Describe how you are feeling — including where the pain or discomfort is, how severe it is, when it started, how often it occurs, and any other symptoms you have noticed.</div>
+        <textarea value="{{ textInput }}" onchange="{{ onTextChange }}" style="width:100%;max-width:640px;min-height:90px;background:rgba(255,255,255,0.04);border:1px solid rgba(255,255,255,0.14);border-radius:10px;color:#e8e6e1;font-family:Helvetica,Arial,sans-serif;font-size:14px;line-height:1.6;padding:12px;resize:vertical;display:block"></textarea>
+        <button onclick="{{ submitText }}" style="margin-top:10px;padding:11px 32px;border-radius:22px;border:1px solid rgba(255,255,255,0.22);background:rgba(255,255,255,0.04);color:#e8e6e1;font-size:11px;letter-spacing:0.2em;cursor:pointer;font-family:'IBM Plex Mono',monospace">{{ textSubmitLabel }}</button>
+        <sc-if value="{{ hasTextResp }}" hint-placeholder-val="{{ false }}">
+          <div style="margin-top:12px;max-width:640px;font-size:14px;line-height:1.7;color:#ded9cd;white-space:pre-wrap">{{ textResponse }}</div>
+        </sc-if>
+      </div>
+    </div>
+  </sc-if>
+
+  <sc-if value="{{ sosOpen }}" hint-placeholder-val="{{ false }}">
+    <div style="position:fixed;inset:0;background:rgba(150,30,26,0.96);display:flex;flex-direction:column;align-items:center;justify-content:center;gap:28px;z-index:80">
+      <svg width="88" height="88" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><path d="M6.5 3.5c-1 0-2 .8-2.2 1.9C3.4 10 7 17.5 12.6 20.4c1 .5 2.2.1 2.8-.8l1-1.6c.4-.7.2-1.6-.5-2l-2.3-1.4c-.6-.4-1.4-.2-1.8.4l-.4.6c-1.7-1-3-2.4-3.8-4.1l.6-.4c.6-.4.8-1.2.4-1.8L7.8 5.6c-.3-.5-.8-.8-1.3-.8z"></path><line x1="18" y1="3.5" x2="18" y2="9.5"></line><line x1="15" y1="6.5" x2="21" y2="6.5"></line></svg>
+      <div style="font-family:'IBM Plex Mono',monospace;font-size:20px;letter-spacing:0.06em;color:#fff;text-align:center;padding:0 20px">{{ sosText }}</div>
+      <button onclick="{{ dismissSos }}" style="padding:11px 34px;border-radius:22px;border:1px solid rgba(255,255,255,0.6);background:transparent;color:#fff;font-family:'IBM Plex Mono',monospace;font-size:12px;letter-spacing:0.22em;cursor:pointer">DISMISS</button>
+    </div>
+  </sc-if>
+
+  <sc-if value="{{ hasError }}" hint-placeholder-val="{{ false }}">
+    <div style="position:fixed;bottom:10px;left:50%;transform:translateX(-50%);background:rgba(120,40,40,0.92);color:#fff;font-size:12px;font-family:'IBM Plex Mono',monospace;padding:8px 16px;border-radius:8px;z-index:90;max-width:90vw">{{ errorMsg }}</div>
+  </sc-if>
+
+  <sc-if value="{{ hasSaveMsg }}" hint-placeholder-val="{{ false }}">
+    <div style="position:fixed;bottom:10px;left:50%;transform:translateX(-50%);background:rgba(40,90,60,0.92);color:#fff;font-size:12px;font-family:'IBM Plex Mono',monospace;padding:8px 16px;border-radius:8px;z-index:90;max-width:90vw">{{ saveMsg }}</div>
+  </sc-if>
+
+  <sc-if value="{{ tutorialVisible }}" hint-placeholder-val="{{ false }}">
+    <div onclick="{{ tutorialNext }}" style="position:fixed;inset:0;background:rgba(8,10,14,0.9);backdrop-filter:blur(3px);display:flex;flex-direction:column;align-items:center;justify-content:center;gap:24px;z-index:70;cursor:pointer">
+      <canvas ref="{{ setTut }}" style="width:320px;height:320px;max-width:82vw;max-height:52vh"></canvas>
+      <div style="font-family:'IBM Plex Mono',monospace;font-size:13px;letter-spacing:0.5em;color:rgba(232,230,225,0.55)">{{ tutorialDots }}</div>
+      <button onclick="{{ tutorialSkip }}" style="position:fixed;top:16px;right:16px;padding:9px 22px;border-radius:20px;border:1px solid rgba(255,255,255,0.2);background:transparent;color:rgba(232,230,225,0.6);font-size:11px;letter-spacing:0.24em;cursor:pointer;font-family:'IBM Plex Mono',monospace">SKIP</button>
+    </div>
+  </sc-if>
+
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script="" data-props="{
+  &quot;accent&quot;: { &quot;editor&quot;: &quot;color&quot;, &quot;default&quot;: &quot;#8f9fb3&quot;, &quot;options&quot;: [&quot;#8f9fb3&quot;, &quot;#8fb3a9&quot;, &quot;#b39a8f&quot;], &quot;tsType&quot;: &quot;string&quot;, &quot;section&quot;: &quot;Appearance&quot; },
+  &quot;holdMs&quot;: { &quot;editor&quot;: &quot;range&quot;, &quot;default&quot;: 500, &quot;min&quot;: 300, &quot;max&quot;: 1000, &quot;step&quot;: 50, &quot;unit&quot;: &quot;ms&quot;, &quot;tsType&quot;: &quot;number&quot;, &quot;section&quot;: &quot;Interaction&quot; }
+}">
+class Component extends DCLogic {
+  constructor(props) {
+    super(props);
+    this.canvasRef = React.createRef();
+    this.tutRef = React.createRef();
+    this.history = [];
+    this.qid = 0;
+    this.lastSuggTokens = '';
+    let tutDone = false;
+    try { tutDone = localStorage.getItem('apx5_tut_done') === '1'; } catch (e) {}
+
+    this.NODE_ORDER = ['location', 'severity', 'timing', 'modifier'];
+    this.META = {
+      location: { icon: 'body' },
+      severity: { icon: 'thermo' },
+      timing:   { icon: 'clock' },
+      modifier: { icon: 'plus' }
+    };
+    this.MODS = [
+      { code: 'fe', icon: 'thermo',  name: 'fever' },
+      { code: 'di', icon: 'spiral',  name: 'dizziness' },
+      { code: 'sw', icon: 'droplet', name: 'sweating' },
+      { code: 'na', icon: 'nose',    name: 'nausea' },
+      { code: 'br', icon: 'lung',    name: 'breathlessness' },
+      { code: 'nu', icon: 'numb',    name: 'numbness' },
+      { code: 'ed', icon: 'swell',   name: 'swelling' },
+      { code: 'pa', icon: 'heart',   name: 'palpitations' }
+    ];
+    this.LANGS = ['EN', 'HI', 'AR'];
+    this.LANG_FULL = { EN: 'English', HI: 'Hindi', AR: 'Arabic' };
+    this.SOS_TEXT = { EN: 'Call Emergency Services', HI: '\u0906\u092A\u093E\u0924\u0915\u093E\u0932\u0940\u0928 \u0938\u0947\u0935\u093E\u0913\u0902 \u0915\u094B \u0915\u0949\u0932 \u0915\u0930\u0947\u0902', AR: '\u0627\u062A\u0635\u0644 \u0628\u062E\u062F\u0645\u0627\u062A \u0627\u0644\u0637\u0648\u0627\u0631\u0626' };
+
+    this.SYSTEM_TEMPLATE = 'You are a clinical triage unmarshaller and localised translator. Parse the minified payload below and respond in {LANGUAGE}.\n\nSCHEMA:\nl=[x,y] body location (0,0=head-left, 1,1=feet-right)\nr=[x,y] radiation endpoint (null if absent)\ns=severity 0–10 (Wong-Baker: 0=none, 5=moderate, 10=worst)\nt={o:onset_clock_pos(0-11), m:[recurrence_positions]}\nmod=active modifiers: fe=fever, di=dizziness, sw=sweating, na=nausea, br=breathlessness, nu=numbness, ed=swelling, pa=palpitations\nq=query: wh=what_is_this, ca=cause, du=duration, se=self_care, es=need_doctor\n\nRULES:\n- Never diagnose or prescribe. Use: "may suggest","could indicate","pattern consistent with".\n- URGENCY 2 if: s>=8 OR br active OR (pa active AND s>=7). Include prompt care recommendation.\n- URGENCY 1 if: s>=5 OR any mod active.\n- URGENCY 0 otherwise.\n- Tone: informative if somatic (y>0.2); grounding if psychological (x>0.8,y<0.3); direct if pa/br.\n- 3 sentences max. No follow-up questions. No payload repetition.\n\nRESPOND EXACTLY:\nPHRASE:[response in {LANGUAGE}, 3 sentences max]\nTRANSFORM:[3 words from: darker,lighter,warmer,cooler,scattered,condensed,slower,faster,heavy,airy,pulsing,still,sharp,soft]\nURGENCY:[0,1,2]\nACTION:[breathe,ground,move,rest,journal,connect,none — none if URGENCY=2]';
+
+    this.D = {
+      location: { x: null, y: null, rx: null, ry: null, psych: false },
+      severity: { s: null },
+      timing:   { o: null, m: [] },
+      modifier: { active: [] }
+    };
+
+    this.state = {
+      screen: 'patient', engaged: false, count: 3,
+      language: 'EN',
+      provider: 'openai',
+      conditionOrder: 'interface',
+      participantId: '',
+      sessionId: this.newSessionId(),
+      phrase: '', actionLabel: '', phraseOpacity: 0, loading: false,
+      sosOpen: false, sosTriggered: false,
+      gestureLog: [], sessions: [], lastResult: null,
+      estBefore: 0, lastActualIn: null,
+      textInput: '', textResponse: '', textLoading: false,
+      tutorialStep: tutDone ? -1 : 0,
+      errorMsg: '', csvCopied: false, forcing: false, saveMsg: '',
+      tick: 0
+    };
+
+    this.A = {
+      slots: ['location', 'severity', 'timing'],
+      interacted: {},
+      rings: [], ripples: [], particles: [],
+      cur: { lum: 0, warm: 0, spread: 1, speed: 1, density: 1, pulse: 0, blur: 0 },
+      tgt: { lum: 0, warm: 0, spread: 1, speed: 1, density: 1, pulse: 0, blur: 0 },
+      lastRing: 0, engagedAt: 0, urgency: 0, action: null, submitAt: 0,
+      space: null, pending: null, spreadMul: 1,
+      size: 480, raf: 0, lastT: 0, tutSize: 320
+    };
+    for (let i = 0; i < 110; i++) {
+      this.A.particles.push({ x: Math.random(), y: Math.random(), vx: (Math.random() - 0.5) * 0.014, vy: (Math.random() - 0.5) * 0.014, s: 0.7 + Math.random() * 1.6, a: 0.12 + Math.random() * 0.3 });
+    }
+    this.onResize = this.onResize.bind(this);
+    this.loop = this.loop.bind(this);
+  }
+
+  newSessionId() {
+    const d = new Date();
+    const p = n => String(n).padStart(2, '0');
+    return d.getFullYear() + p(d.getMonth() + 1) + p(d.getDate()) + '-' + p(d.getHours()) + p(d.getMinutes()) + p(d.getSeconds()) + '-' + Math.random().toString(36).slice(2, 6);
+  }
+  accent() { return this.props.accent || '#8f9fb3'; }
+  holdMs() { return this.props.holdMs || 500; }
+  hexA(hex, a) { const n = parseInt(hex.slice(1), 16); return 'rgba(' + ((n >> 16) & 255) + ',' + ((n >> 8) & 255) + ',' + (n & 255) + ',' + a + ')'; }
+
+  componentDidMount() {
+    this.onResize();
+    window.addEventListener('resize', this.onResize);
+    this.A.raf = requestAnimationFrame(this.loop);
+  }
+  componentDidUpdate(prevProps, prevState) {
+    if (prevState.screen !== this.state.screen) requestAnimationFrame(() => this.onResize());
+  }
+  componentWillUnmount() { window.removeEventListener('resize', this.onResize); cancelAnimationFrame(this.A.raf); }
+  setCanvas(el) { this.canvasRef.current = el; if (el) requestAnimationFrame(() => this.onResize()); }
+  setTut(el) { this.tutRef.current = el; if (el) requestAnimationFrame(() => { const dpr = window.devicePixelRatio || 1; const s = 320; this.A.tutSize = s; el.width = s * dpr; el.height = s * dpr; }); }
+  onResize() {
+    const c = this.canvasRef.current; if (!c || !c.parentElement) return;
+    const r = c.parentElement.getBoundingClientRect();
+    const s = Math.max(320, Math.min(r.width, r.height, 620));
+    this.A.size = s;
+    const dpr = window.devicePixelRatio || 1;
+    c.width = s * dpr; c.height = s * dpr; c.style.width = s + 'px'; c.style.height = s + 'px';
+  }
+
+  // ---------- logging ----------
+  logEvent(ev, val) {
+    const d = new Date(); const p = n => String(n).padStart(2, '0');
+    const ts = p(d.getHours()) + ':' + p(d.getMinutes()) + ':' + p(d.getSeconds());
+    const line = val === undefined || val === null || val === '' ? ev + ':' : ev + ': ' + (Array.isArray(val) ? '[' + val.join(',') + ']' : val);
+    this.setState(s => ({ gestureLog: s.gestureLog.concat({ ts, line }) }));
+  }
+
+  // ---------- payload ----------
+  round2(v) { return Math.round(v * 100) / 100; }
+  buildPayload(q) {
+    const D = this.D, p = {};
+    if (D.location.x !== null) {
+      p.l = [this.round2(D.location.x), this.round2(D.location.y)];
+      if (D.location.rx !== null) p.r = [this.round2(D.location.rx), this.round2(D.location.ry)];
+    }
+    if (D.severity.s !== null) p.s = D.severity.s;
+    if (D.timing.o !== null) p.t = { o: D.timing.o, m: D.timing.m.slice() };
+    if (D.modifier.active.length) p.mod = D.modifier.active.slice();
+    if (q) p.q = q;
+    return p;
+  }
+  payloadStr(q) { return JSON.stringify(this.buildPayload(q)); }
+  hasAnyData() { const D = this.D; return D.location.x !== null || D.severity.s !== null || D.timing.o !== null || D.modifier.active.length > 0; }
+  tokenize(str) {
+    const out = []; const re = /"([a-z]+)":/g; let last = 0, m;
+    while ((m = re.exec(str))) { if (m.index > last) out.push({ text: str.slice(last, m.index), color: '#d7d2c8' }); out.push({ text: m[0], color: '#e0a450' }); last = m.index + m[0].length; }
+    if (last < str.length) out.push({ text: str.slice(last), color: '#d7d2c8' });
+    return out;
+  }
+
+  // ---------- geometry ----------
+  geom() { const s = this.A.size; return { cx: s / 2, cy: s / 2, minR: s * 0.10, maxR: s * 0.40 - 16 }; }
+  angle(i) { return -Math.PI / 2 + (i * 2 * Math.PI) / this.state.count; }
+  nodeScalar(key) {
+    const D = this.D;
+    if (key === 'location') return D.location.x !== null ? 0.35 + (D.location.y || 0.5) * 0.5 : 0.3;
+    if (key === 'severity') return D.severity.s !== null ? Math.max(0.05, D.severity.s / 10) : 0.3;
+    if (key === 'timing') return D.timing.o !== null ? Math.min(1, (1 + D.timing.m.length) / 5) : 0.3;
+    if (key === 'modifier') return 0.3 + Math.min(4, D.modifier.active.length) * 0.16;
+    return 0.3;
+  }
+  val(i) { return this.nodeScalar(this.A.slots[i]); }
+  spreadTotal() { return Math.max(0.35, Math.min(1.4, this.A.cur.spread)) * (this.A.spreadMul || 1); }
+  vertexPos(i) { const g = this.geom(); const r = (g.minR + this.val(i) * (g.maxR - g.minR)) * this.spreadTotal(); const a = this.angle(i); return { x: g.cx + Math.cos(a) * r, y: g.cy + Math.sin(a) * r }; }
+  polyPoints() { const p = []; for (let i = 0; i < this.state.count; i++) p.push(this.vertexPos(i)); return p; }
+
+  // ---------- animation loop ----------
+  loop(t) {
+    this.A.raf = requestAnimationFrame(this.loop);
+    const A = this.A;
+    const dt = A.lastT ? Math.min(50, t - A.lastT) : 16; A.lastT = t;
+    const k = 1 - Math.exp(-dt / 500);
+    for (const p in A.tgt) A.cur[p] += (A.tgt[p] - A.cur[p]) * k;
+    // psych dwell for location head zone
+    const sp = A.space;
+    if (sp && sp.node === 'location' && sp.headDwell && !this.D.location.psych) {
+      if (performance.now() - sp.headDwell > this.holdMs()) { this.D.location.x = 0.85; this.D.location.y = 0.12; this.D.location.psych = true; this.logEvent('LOCATION_SET', [0.85, 0.12]); }
+    }
+    if (A.action) { const st = this.actState(performance.now()); if (st && st.done) A.action = null; }
+    if (this.state.screen === 'patient') this.draw(t, dt);
+    if (this.state.tutorialStep >= 0 && this.state.screen === 'patient') this.drawTutorial(t);
+  }
+
+  actState(now) {
+    const a = this.A.action; if (!a) return null;
+    const e = now - a.t0, T = a.type;
+    const o = { scale: 1, rot: 0, spread: 1, dim: 0, blur: 0, amber: 0, trace: -1, done: false };
+    if (T === 'breathe') { if (e > 12000) o.done = true; o.scale = 1 + 0.05 * Math.sin(e / 4000 * 2 * Math.PI); o.dim = 0.1 * (0.5 - 0.5 * Math.cos(e / 4000 * 2 * Math.PI)); }
+    else if (T === 'ground') { if (e > 3000) o.done = true; const ph = (e % 1500) / 1500; o.spread = 1 + 0.32 * Math.sin(ph * Math.PI); }
+    else if (T === 'move') { if (e > 3000) o.done = true; o.rot = 2 * Math.PI * Math.min(1, e / 3000); }
+    else if (T === 'rest') { if (e > 4200) o.done = true; o.spread = 1 - 0.18 * Math.min(1, e / 2000); if (e < 2000) o.dim = 0.85 * (e / 2000); else if (e < 3000) o.dim = 0.85; else o.dim = 0.85 * Math.max(0, 1 - (e - 3000) / 1200); }
+    else if (T === 'journal') { if (e > 3000) o.done = true; o.trace = Math.floor(this.state.count * Math.min(0.999, e / 3000)); }
+    else if (T === 'connect') { if (e > 3200) o.done = true; o.blur = 1.6 * Math.min(1, e / 600); o.amber = 0.42; }
+    return o;
+  }
+
+  draw(t, dt) {
+    const c = this.canvasRef.current; if (!c) return;
+    const ctx = c.getContext('2d');
+    const dpr = window.devicePixelRatio || 1;
+    ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
+    const A = this.A, s = A.size, g = this.geom(), st = this.state;
+    const acc = this.accent();
+    const act = this.actState(performance.now());
+    A.spreadMul = act ? act.spread : 1;
+
+    const arousal = this.D.severity.s !== null ? this.D.severity.s / 10 : 0.3;
+    const warm = A.cur.warm;
+    let hue = 224; if (warm > 0) hue -= warm * 186; else hue -= warm * 14;
+    const pulseOsc = A.cur.pulse > 0.05 ? Math.sin(t / (600 / Math.max(0.3, A.cur.speed))) * 2.2 * A.cur.pulse : 0;
+    const lit = 7 + A.cur.lum * 4.5 + arousal * 1.5 + pulseOsc;
+    const sat = 16 + Math.abs(warm) * 22;
+    ctx.fillStyle = 'hsl(' + hue + ',' + sat + '%,' + lit + '%)';
+    ctx.fillRect(0, 0, s, s);
+    if (act && act.dim > 0) { ctx.fillStyle = 'rgba(4,5,8,' + act.dim.toFixed(3) + ')'; ctx.fillRect(0, 0, s, s); }
+    let blurPx = A.cur.blur + (act ? act.blur : 0);
+    c.style.filter = blurPx > 0.1 ? 'blur(' + (blurPx * 1.2).toFixed(1) + 'px)' : 'none';
+
+    const heavy = A.cur.density; const n = Math.round(Math.min(110, 60 * heavy));
+    for (let i = 0; i < n; i++) {
+      const p = A.particles[i];
+      p.x += p.vx * A.cur.speed * dt * 0.06; p.y += p.vy * A.cur.speed * dt * 0.06;
+      if (p.x < 0) p.x += 1; if (p.x > 1) p.x -= 1; if (p.y < 0) p.y += 1; if (p.y > 1) p.y -= 1;
+      ctx.fillStyle = 'rgba(232,230,225,' + (p.a * 0.5).toFixed(3) + ')';
+      ctx.beginPath(); ctx.arc(p.x * s, p.y * s, p.s * (heavy > 1.2 ? 1.5 : 1), 0, 7); ctx.fill();
+    }
+
+    if (!st.engaged) { this.drawIdle(ctx, t, g, acc); this.drawUrgency(ctx, t, s, g); return; }
+    if (A.space) { this.drawSpaceLayer(ctx, t, s, g, acc); this.drawUrgency(ctx, t, s, g); return; }
+
+    const grow = Math.min(1, (performance.now() - A.engagedAt) / 600);
+    const ease = 1 - Math.pow(1 - grow, 3);
+    const gScale = ease * (act ? act.scale : 1);
+    const submitScale = A.submitAt && (t - A.submitAt) < 300 ? 1 + 0.05 * Math.sin(((t - A.submitAt) / 300) * Math.PI) : 1;
+
+    ctx.save();
+    ctx.translate(g.cx, g.cy);
+    if (act && act.rot) ctx.rotate(act.rot);
+    ctx.scale(gScale * submitScale, gScale * submitScale);
+    ctx.translate(-g.cx, -g.cy);
+    for (let i = 0; i < st.count; i++) this.drawTrack(ctx, i, g, acc);
+    const pts = this.polyPoints();
+    ctx.beginPath(); pts.forEach((p, i) => i ? ctx.lineTo(p.x, p.y) : ctx.moveTo(p.x, p.y)); ctx.closePath();
+    const ready = Object.keys(A.interacted).length >= 2;
+    ctx.fillStyle = this.hexA(acc, ready ? 0.2 : 0.11); ctx.fill();
+    ctx.strokeStyle = this.hexA(acc, 0.85); ctx.lineWidth = 1.8; ctx.stroke();
+    for (let i = 0; i < st.count; i++) {
+      const p = pts[i], key = A.slots[i];
+      const hot = act && act.trace === i;
+      ctx.fillStyle = hot ? '#fff' : this.hexA(acc, 0.95);
+      ctx.beginPath(); ctx.arc(p.x, p.y, hot ? 26 : 22, 0, 7); ctx.fill();
+      ctx.strokeStyle = 'rgba(12,14,18,0.65)'; ctx.lineWidth = 2.4; ctx.stroke();
+      this.drawIcon(ctx, this.META[key].icon, p.x, p.y, 14, this.val(i), '#0c0e12');
+    }
+    ctx.restore();
+
+    A.ripples = A.ripples.filter(r => t - r.t0 < 900);
+    for (const r of A.ripples) { const pr = (t - r.t0) / 900; ctx.strokeStyle = this.hexA(acc, 0.5 * (1 - pr)); ctx.lineWidth = 2; ctx.beginPath(); ctx.arc(r.x, r.y, 10 + pr * (g.maxR + 30), 0, 7); ctx.stroke(); }
+
+    if (st.loading) { ctx.strokeStyle = this.hexA(acc, 0.7); ctx.lineWidth = 2; ctx.beginPath(); ctx.arc(g.cx, g.cy, 16, t / 300, t / 300 + 1.4); ctx.stroke(); }
+    if (act && act.amber > 0) { ctx.strokeStyle = 'rgba(224,164,80,' + act.amber.toFixed(3) + ')'; ctx.lineWidth = 8; this.roundRect(ctx, 5, 5, s - 10, s - 10, 15); ctx.stroke(); }
+    this.drawUrgency(ctx, t, s, g);
+  }
+
+  drawIdle(ctx, t, g, acc) {
+    const A = this.A;
+    if (t - A.lastRing > 2000) { A.lastRing = t; A.rings.push({ t0: t }); }
+    A.rings = A.rings.filter(r => t - r.t0 < 1900);
+    for (const r of A.rings) { const pr = (t - r.t0) / 1900; ctx.strokeStyle = this.hexA(acc, 0.35 * (1 - pr)); ctx.lineWidth = 1.5; ctx.beginPath(); ctx.arc(g.cx, g.cy, 34 + pr * (g.maxR - 20), 0, 7); ctx.stroke(); }
+    const orbR = 26 + Math.sin(t / 900) * 5;
+    const grad = ctx.createRadialGradient(g.cx, g.cy, 2, g.cx, g.cy, orbR * 2.2);
+    grad.addColorStop(0, this.hexA(acc, 0.9)); grad.addColorStop(0.5, this.hexA(acc, 0.25)); grad.addColorStop(1, this.hexA(acc, 0));
+    ctx.fillStyle = grad; ctx.beginPath(); ctx.arc(g.cx, g.cy, orbR * 2.2, 0, 7); ctx.fill();
+    ctx.fillStyle = this.hexA(acc, 0.95); ctx.beginPath(); ctx.arc(g.cx, g.cy, orbR * 0.55, 0, 7); ctx.fill();
+  }
+
+  drawUrgency(ctx, t, s, g) {
+    const A = this.A;
+    if (A.urgency === 1) {
+      const a = 0.18 + 0.14 * Math.sin(t / 700);
+      ctx.strokeStyle = 'rgba(224,164,80,' + a.toFixed(3) + ')'; ctx.lineWidth = 6; this.roundRect(ctx, 4, 4, s - 8, s - 8, 15); ctx.stroke();
+    } else if (A.urgency === 2) {
+      const a = 0.3 + 0.22 * Math.sin(t / 450);
+      ctx.strokeStyle = 'rgba(214,86,74,' + a.toFixed(3) + ')'; ctx.lineWidth = 7; this.roundRect(ctx, 4, 4, s - 8, s - 8, 15); ctx.stroke();
+      const ix = g.cx, iy = 40;
+      ctx.fillStyle = 'rgba(214,86,74,' + (0.65 + 0.2 * Math.sin(t / 450)).toFixed(3) + ')';
+      ctx.beginPath(); ctx.arc(ix, iy, 15, 0, 7); ctx.fill();
+      ctx.strokeStyle = '#fff'; ctx.lineWidth = 2.4;
+      ctx.beginPath(); ctx.arc(ix, iy + 4, 4, -Math.PI, 0); ctx.moveTo(ix - 5, iy - 5); ctx.lineTo(ix - 2, iy - 2); ctx.moveTo(ix + 5, iy - 5); ctx.lineTo(ix + 2, iy - 2); ctx.stroke();
+    }
+  }
+
+  drawTrack(ctx, i, g, acc) {
+    const a = this.angle(i), sp = this.spreadTotal();
+    const x0 = g.cx + Math.cos(a) * g.minR * 0.5, y0 = g.cy + Math.sin(a) * g.minR * 0.5;
+    const x1 = g.cx + Math.cos(a) * g.maxR, y1 = g.cy + Math.sin(a) * g.maxR;
+    const grad = ctx.createLinearGradient(x0, y0, x1, y1);
+    grad.addColorStop(0, 'rgba(232,230,225,0.10)'); grad.addColorStop(1, this.hexA(acc, 0.5));
+    ctx.strokeStyle = grad; ctx.lineWidth = 2; ctx.beginPath(); ctx.moveTo(x0, y0); ctx.lineTo(x1, y1); ctx.stroke();
+    const r = (g.minR + this.val(i) * (g.maxR - g.minR)) * sp;
+    const dx = g.cx + Math.cos(a) * r, dy = g.cy + Math.sin(a) * r;
+    ctx.fillStyle = 'rgba(232,230,225,0.75)'; ctx.beginPath(); ctx.arc(dx, dy, 2.6, 0, 7); ctx.fill();
+  }
+
+  roundRect(ctx, x, y, w, h, r) { ctx.beginPath(); ctx.moveTo(x + r, y); ctx.arcTo(x + w, y, x + w, y + h, r); ctx.arcTo(x + w, y + h, x, y + h, r); ctx.arcTo(x, y + h, x, y, r); ctx.arcTo(x, y, x + w, y, r); ctx.closePath(); }
+
+  drawIcon(ctx, type, x, y, r, val, col) {
+    ctx.save(); ctx.strokeStyle = col; ctx.fillStyle = col; ctx.lineWidth = 1.4; ctx.lineCap = 'round'; ctx.lineJoin = 'round';
+    if (type === 'thermo') { ctx.beginPath(); ctx.arc(x, y, r * 0.85, 0, 7); ctx.stroke(); ctx.beginPath(); ctx.arc(x, y, r * 0.85 * Math.max(0.12, val || 0.5), 0, 7); ctx.fill(); }
+    else if (type === 'clock') { ctx.beginPath(); ctx.arc(x, y, r * 0.85, 0, 7); ctx.stroke(); ctx.beginPath(); ctx.moveTo(x, y); ctx.lineTo(x, y - r * 0.5); ctx.moveTo(x, y); ctx.lineTo(x + r * 0.42, y + r * 0.15); ctx.stroke(); }
+    else if (type === 'body') {
+      ctx.beginPath(); ctx.arc(x, y - r * 0.55, r * 0.3, 0, 7); ctx.stroke();
+      ctx.beginPath(); ctx.moveTo(x, y - r * 0.25); ctx.lineTo(x, y + r * 0.45); ctx.moveTo(x - r * 0.55, y); ctx.lineTo(x + r * 0.55, y);
+      ctx.moveTo(x, y + r * 0.45); ctx.lineTo(x - r * 0.4, y + r * 0.9); ctx.moveTo(x, y + r * 0.45); ctx.lineTo(x + r * 0.4, y + r * 0.9); ctx.stroke();
+    }
+    else if (type === 'plus') { ctx.beginPath(); ctx.arc(x, y, r * 0.85, 0, 7); ctx.stroke(); ctx.beginPath(); ctx.moveTo(x - r * 0.45, y); ctx.lineTo(x + r * 0.45, y); ctx.moveTo(x, y - r * 0.45); ctx.lineTo(x, y + r * 0.45); ctx.stroke(); }
+    else if (type === 'spiral') { ctx.beginPath(); for (let a = 0; a < 6.2; a += 0.2) { const rr = r * 0.14 * a; const px = x + Math.cos(a) * rr, py = y + Math.sin(a) * rr; a === 0 ? ctx.moveTo(px, py) : ctx.lineTo(px, py); } ctx.stroke(); }
+    else if (type === 'droplet') { ctx.beginPath(); ctx.moveTo(x, y - r * 0.8); ctx.quadraticCurveTo(x + r * 0.7, y + r * 0.1, x, y + r * 0.7); ctx.quadraticCurveTo(x - r * 0.7, y + r * 0.1, x, y - r * 0.8); ctx.stroke(); }
+    else if (type === 'nose') { ctx.beginPath(); ctx.moveTo(x, y - r * 0.7); ctx.lineTo(x - r * 0.35, y + r * 0.35); ctx.quadraticCurveTo(x, y + r * 0.6, x + r * 0.35, y + r * 0.35); ctx.stroke(); }
+    else if (type === 'lung') { ctx.beginPath(); ctx.moveTo(x, y - r * 0.7); ctx.lineTo(x, y); ctx.stroke(); ctx.beginPath(); ctx.moveTo(x, y); ctx.quadraticCurveTo(x - r * 0.7, y, x - r * 0.6, y + r * 0.7); ctx.moveTo(x, y); ctx.quadraticCurveTo(x + r * 0.7, y, x + r * 0.6, y + r * 0.7); ctx.stroke(); }
+    else if (type === 'numb') { ctx.beginPath(); ctx.moveTo(x - r * 0.5, y - r * 0.6); ctx.lineTo(x + r * 0.2, y + r * 0.7); ctx.stroke(); for (let k = -1; k <= 1; k++) { ctx.beginPath(); ctx.moveTo(x + r * 0.15 + k * r * 0.28, y - r * 0.1); ctx.lineTo(x + r * 0.45 + k * r * 0.28, y - r * 0.35); ctx.stroke(); } }
+    else if (type === 'swell') { ctx.beginPath(); ctx.arc(x, y, r * 0.55, 0, 7); ctx.stroke(); ctx.setLineDash([2, 3]); ctx.beginPath(); ctx.arc(x, y, r * 0.85, 0, 7); ctx.stroke(); ctx.setLineDash([]); }
+    else if (type === 'heart') { ctx.beginPath(); ctx.moveTo(x, y + r * 0.7); ctx.bezierCurveTo(x - r * 1.0, y - r * 0.2, x - r * 0.4, y - r * 0.8, x, y - r * 0.25); ctx.bezierCurveTo(x + r * 0.4, y - r * 0.8, x + r * 1.0, y - r * 0.2, x, y + r * 0.7); ctx.stroke(); }
+    ctx.restore();
+  }
+
+  // ---------- silhouette ----------
+  drawSilhouette(ctx, s, alpha) {
+    if (this._silSize !== s) {
+      const off = document.createElement('canvas'); off.width = s; off.height = s;
+      const o = off.getContext('2d'); const cx = s / 2;
+      o.fillStyle = '#dfe3ea'; o.strokeStyle = '#dfe3ea'; o.lineCap = 'round'; o.lineJoin = 'round';
+      const headR = s * 0.05, headCy = s * 0.115, shY = s * 0.215, shW = s * 0.15, waistY = s * 0.42, waistW = s * 0.085, hipY = s * 0.52, hipW = s * 0.12;
+      o.fillRect(cx - s * 0.022, headCy + headR * 0.3, s * 0.044, s * 0.07);
+      o.beginPath(); o.arc(cx, headCy, headR, 0, 7); o.fill();
+      o.beginPath(); o.moveTo(cx - shW, shY); o.quadraticCurveTo(cx - shW * 0.9, (shY + waistY) / 2, cx - waistW, waistY); o.quadraticCurveTo(cx - hipW, hipY - s * 0.02, cx - hipW, hipY); o.lineTo(cx + hipW, hipY); o.quadraticCurveTo(cx + hipW, hipY - s * 0.02, cx + waistW, waistY); o.quadraticCurveTo(cx + shW * 0.9, (shY + waistY) / 2, cx + shW, shY); o.quadraticCurveTo(cx, shY - s * 0.035, cx - shW, shY); o.closePath(); o.fill();
+      o.lineWidth = s * 0.05;
+      o.beginPath(); o.moveTo(cx - shW * 0.9, shY + s * 0.01); o.quadraticCurveTo(cx - shW * 1.22, s * 0.35, cx - shW * 1.05, s * 0.53); o.stroke();
+      o.beginPath(); o.moveTo(cx + shW * 0.9, shY + s * 0.01); o.quadraticCurveTo(cx + shW * 1.22, s * 0.35, cx + shW * 1.05, s * 0.53); o.stroke();
+      o.beginPath(); o.arc(cx - shW * 1.05, s * 0.56, s * 0.03, 0, 7); o.fill(); o.beginPath(); o.arc(cx + shW * 1.05, s * 0.56, s * 0.03, 0, 7); o.fill();
+      o.lineWidth = s * 0.062;
+      o.beginPath(); o.moveTo(cx - hipW * 0.5, hipY + s * 0.02); o.quadraticCurveTo(cx - hipW * 0.72, s * 0.74, cx - hipW * 0.62, s * 0.93); o.stroke();
+      o.beginPath(); o.moveTo(cx + hipW * 0.5, hipY + s * 0.02); o.quadraticCurveTo(cx + hipW * 0.72, s * 0.74, cx + hipW * 0.62, s * 0.93); o.stroke();
+      o.beginPath(); o.ellipse(cx - hipW * 0.6, s * 0.945, s * 0.032, s * 0.018, 0, 0, 7); o.fill(); o.beginPath(); o.ellipse(cx + hipW * 0.6, s * 0.945, s * 0.032, s * 0.018, 0, 0, 7); o.fill();
+      this._sil = off; this._silSize = s;
+    }
+    ctx.save(); ctx.globalAlpha = alpha; ctx.drawImage(this._sil, 0, 0, s, s); ctx.restore();
+  }
+  glowPoint(ctx, x, y, acc, rr) { rr = rr || 12; const grad = ctx.createRadialGradient(x, y, 1, x, y, rr * 2.2); grad.addColorStop(0, this.hexA(acc, 0.95)); grad.addColorStop(0.5, this.hexA(acc, 0.3)); grad.addColorStop(1, this.hexA(acc, 0)); ctx.fillStyle = grad; ctx.beginPath(); ctx.arc(x, y, rr * 2.2, 0, 7); ctx.fill(); ctx.fillStyle = '#fff'; ctx.beginPath(); ctx.arc(x, y, rr * 0.35, 0, 7); ctx.fill(); }
+
+  // ---------- contextual spaces ----------
+  headZone(s) { return { x: s * 0.84, y: s * 0.13, r: s * 0.08 }; }
+  modRingPos(i, s) { const a = -Math.PI / 2 + i * 2 * Math.PI / 8; return { x: s / 2 + Math.cos(a) * s * 0.4, y: s / 2 + Math.sin(a) * s * 0.4 }; }
+  modBodyPos(slot, s) { const ys = [0.24, 0.38, 0.52, 0.66]; return { x: s * 0.5, y: s * (ys[slot] || 0.5) }; }
+
+  drawSpaceLayer(ctx, t, s, g, acc) {
+    const sp = this.A.space;
+    ctx.fillStyle = 'rgba(8,9,13,0.8)'; ctx.fillRect(0, 0, s, s);
+    if (sp.node === 'location') this.spaceLocation(ctx, t, s, acc);
+    else if (sp.node === 'severity') this.spaceSeverity(ctx, t, s);
+    else if (sp.node === 'timing') this.spaceTiming(ctx, t, s, acc);
+    else if (sp.node === 'modifier') this.spaceModifier(ctx, t, s, acc);
+  }
+
+  spaceLocation(ctx, t, s, acc) {
+    this.drawSilhouette(ctx, s, 0.28);
+    const hz = this.headZone(s);
+    const active = this.A.space.headDwell || this.D.location.psych;
+    const grad = ctx.createRadialGradient(hz.x, hz.y, 2, hz.x, hz.y, hz.r * 1.4);
+    grad.addColorStop(0, this.hexA(acc, active ? 0.85 : 0.3)); grad.addColorStop(1, this.hexA(acc, 0));
+    ctx.fillStyle = grad; ctx.beginPath(); ctx.arc(hz.x, hz.y, hz.r * 1.4, 0, 7); ctx.fill();
+    ctx.strokeStyle = active ? '#fff' : this.hexA(acc, 0.8); ctx.lineWidth = 1.6;
+    for (let rr = 4; rr <= 12; rr += 4) { ctx.beginPath(); ctx.arc(hz.x, hz.y, rr, Math.PI * 0.1, Math.PI * 1.9); ctx.stroke(); }
+    if (this.A.space.headDwell) { const pr = Math.min(1, (performance.now() - this.A.space.headDwell) / this.holdMs()); ctx.strokeStyle = '#fff'; ctx.lineWidth = 3; ctx.beginPath(); ctx.arc(hz.x, hz.y, hz.r * 1.35, -Math.PI / 2, -Math.PI / 2 + pr * 2 * Math.PI); ctx.stroke(); }
+    const D = this.D.location;
+    if (D.x !== null) {
+      const px = D.x * s, py = D.y * s;
+      if (D.rx !== null) { const ex = D.rx * s, ey = D.ry * s; const lg = ctx.createLinearGradient(px, py, ex, ey); lg.addColorStop(0, this.hexA(acc, 0.9)); lg.addColorStop(1, this.hexA(acc, 0)); ctx.strokeStyle = lg; ctx.lineWidth = 4; ctx.beginPath(); ctx.moveTo(px, py); ctx.lineTo(ex, ey); ctx.stroke(); }
+      this.glowPoint(ctx, px, py, acc);
+    }
+  }
+
+  sevPalette(sv) {
+    if (sv <= 2) return { bg: '#12231a', face: '#7bbf8f' };
+    if (sv <= 4) return { bg: '#1d2416', face: '#b6c05e' };
+    if (sv <= 6) return { bg: '#2a2413', face: '#d9a94e' };
+    if (sv <= 8) return { bg: '#2a1a11', face: '#e08a4e' };
+    return { bg: '#2a1012', face: '#d6564a' };
+  }
+  spaceSeverity(ctx, t, s) {
+    const sv = this.D.severity.s === null ? 0 : this.D.severity.s;
+    const pal = this.sevPalette(sv);
+    ctx.fillStyle = pal.bg; ctx.fillRect(0, 0, s, s);
+    const m = s * 0.12; ctx.strokeStyle = 'rgba(255,255,255,0.12)'; ctx.lineWidth = 3;
+    ctx.beginPath(); ctx.moveTo(s * 0.5, m); ctx.lineTo(s * 0.5, s - m); ctx.stroke();
+    const ty = (s - m) - (sv / 10) * (s - 2 * m);
+    ctx.fillStyle = 'rgba(255,255,255,0.5)'; ctx.beginPath(); ctx.arc(s * 0.5, ty, 5, 0, 7); ctx.fill();
+    // face
+    const fx = s * 0.5, fy = s * 0.42, R = s * 0.16;
+    ctx.strokeStyle = pal.face; ctx.fillStyle = pal.face; ctx.lineWidth = 4; ctx.lineCap = 'round';
+    ctx.beginPath(); ctx.arc(fx, fy, R, 0, 7); ctx.stroke();
+    const ey = fy - R * 0.2, ex = R * 0.4;
+    const stress = sv / 10;
+    if (stress > 0.75) { ctx.beginPath(); ctx.moveTo(fx - ex - 6, ey - 5); ctx.lineTo(fx - ex + 6, ey + 5); ctx.moveTo(fx - ex + 6, ey - 5); ctx.lineTo(fx - ex - 6, ey + 5); ctx.moveTo(fx + ex - 6, ey - 5); ctx.lineTo(fx + ex + 6, ey + 5); ctx.moveTo(fx + ex + 6, ey - 5); ctx.lineTo(fx + ex - 6, ey + 5); ctx.stroke(); }
+    else { ctx.beginPath(); ctx.arc(fx - ex, ey, 4, 0, 7); ctx.arc(fx + ex, ey, 4, 0, 7); ctx.fill(); }
+    // brows furrow
+    ctx.lineWidth = 3;
+    ctx.beginPath(); ctx.moveTo(fx - ex - 7, ey - 14 + stress * 6); ctx.lineTo(fx - ex + 7, ey - 14 - stress * 6); ctx.moveTo(fx + ex + 7, ey - 14 + stress * 6); ctx.lineTo(fx + ex - 7, ey - 14 - stress * 6); ctx.stroke();
+    // mouth
+    const smile = (5 - sv) / 5; const my = fy + R * 0.5;
+    ctx.lineWidth = 4; ctx.beginPath(); ctx.moveTo(fx - R * 0.5, my); ctx.quadraticCurveTo(fx, my + smile * R * 0.5, fx + R * 0.5, my); ctx.stroke();
+    // integer
+    ctx.fillStyle = pal.face; ctx.font = '700 ' + Math.round(s * 0.14) + 'px Helvetica, Arial, sans-serif'; ctx.textAlign = 'center'; ctx.textBaseline = 'middle';
+    ctx.fillText(String(sv), s * 0.5, s * 0.78);
+  }
+
+  clockGeom(s) { return { cx: s * 0.5, cy: s * 0.46, R: s * 0.32 }; }
+  clockHour(p, s) { const cg = this.clockGeom(s); const a = Math.atan2(p.x - cg.cx, -(p.y - cg.cy)); let h = Math.round(a / (2 * Math.PI / 12)); h = ((h % 12) + 12) % 12; return h; }
+  clockMarkPos(h, s) { const cg = this.clockGeom(s); const a = -Math.PI / 2 + h * 2 * Math.PI / 12; return { x: cg.cx + Math.cos(a) * cg.R * 0.72, y: cg.cy + Math.sin(a) * cg.R * 0.72 }; }
+  spaceTiming(ctx, t, s, acc) {
+    const cg = this.clockGeom(s);
+    ctx.strokeStyle = 'rgba(232,230,225,0.2)'; ctx.lineWidth = 2; ctx.beginPath(); ctx.arc(cg.cx, cg.cy, cg.R, 0, 7); ctx.stroke();
+    for (let h = 0; h < 12; h++) { const a = -Math.PI / 2 + h * 2 * Math.PI / 12; const x1 = cg.cx + Math.cos(a) * cg.R, y1 = cg.cy + Math.sin(a) * cg.R; const x0 = cg.cx + Math.cos(a) * cg.R * 0.9, y0 = cg.cy + Math.sin(a) * cg.R * 0.9; ctx.strokeStyle = 'rgba(232,230,225,0.35)'; ctx.lineWidth = h % 3 === 0 ? 2.5 : 1; ctx.beginPath(); ctx.moveTo(x0, y0); ctx.lineTo(x1, y1); ctx.stroke(); }
+    const D = this.D.timing;
+    for (const h of D.m) { const mp = this.clockMarkPos(h, s); ctx.fillStyle = 'rgba(232,230,225,0.9)'; ctx.beginPath(); ctx.arc(mp.x, mp.y, 6, 0, 7); ctx.fill(); }
+    if (D.o !== null) { const op = this.clockMarkPos(D.o, s); const gr = ctx.createRadialGradient(op.x, op.y, 1, op.x, op.y, 20); gr.addColorStop(0, 'rgba(224,164,80,0.95)'); gr.addColorStop(1, 'rgba(224,164,80,0)'); ctx.fillStyle = gr; ctx.beginPath(); ctx.arc(op.x, op.y, 20, 0, 7); ctx.fill(); ctx.fillStyle = '#e0a450'; ctx.beginPath(); ctx.arc(op.x, op.y, 8, 0, 7); ctx.fill(); }
+    ctx.fillStyle = 'rgba(232,230,225,0.4)'; ctx.beginPath(); ctx.arc(cg.cx, cg.cy, 3, 0, 7); ctx.fill();
+  }
+
+  spaceModifier(ctx, t, s, acc) {
+    this.drawSilhouette(ctx, s, 0.4);
+    const act = this.D.modifier.active;
+    for (let i = 0; i < this.MODS.length; i++) {
+      const m = this.MODS[i]; const ai = act.indexOf(m.code);
+      const pos = ai >= 0 ? this.modBodyPos(ai, s) : this.modRingPos(i, s);
+      if (ai >= 0) { const pu = 0.5 + 0.5 * Math.sin(t / 400); const gr = ctx.createRadialGradient(pos.x, pos.y, 2, pos.x, pos.y, 26); gr.addColorStop(0, 'rgba(255,255,255,' + (0.4 * pu).toFixed(2) + ')'); gr.addColorStop(1, 'rgba(255,255,255,0)'); ctx.fillStyle = gr; ctx.beginPath(); ctx.arc(pos.x, pos.y, 26, 0, 7); ctx.fill(); }
+      ctx.fillStyle = ai >= 0 ? 'rgba(232,230,225,0.14)' : 'rgba(255,255,255,0.05)';
+      ctx.strokeStyle = ai >= 0 ? '#fff' : this.hexA(acc, 0.6); ctx.lineWidth = 1.4;
+      ctx.beginPath(); ctx.arc(pos.x, pos.y, 20, 0, 7); ctx.fill(); ctx.stroke();
+      this.drawIcon(ctx, m.icon, pos.x, pos.y, 13, 0.5, ai >= 0 ? '#fff' : this.hexA(acc, 0.9));
+    }
+    ctx.fillStyle = 'rgba(232,230,225,0.4)'; ctx.font = '11px "IBM Plex Mono", monospace'; ctx.textAlign = 'center';
+    ctx.fillText(act.length + ' / 4', s / 2, s - 20);
+  }
+
+  // ---------- pointer ----------
+  evPos(e) { const r = this.canvasRef.current.getBoundingClientRect(); return { x: e.clientX - r.left, y: e.clientY - r.top }; }
+  distToSeg(p, a, b) { const dx = b.x - a.x, dy = b.y - a.y, L = dx * dx + dy * dy; let tt = L ? ((p.x - a.x) * dx + (p.y - a.y) * dy) / L : 0; tt = Math.max(0, Math.min(1, tt)); return Math.hypot(p.x - (a.x + tt * dx), p.y - (a.y + tt * dy)); }
+
+  handleDown(e) {
+    e.preventDefault();
+    try { e.currentTarget.setPointerCapture(e.pointerId); } catch (err) {}
+    const p = this.evPos(e), g = this.geom(), A = this.A, s = A.size;
+    if (A.space) { this.spaceDown(p, s); return; }
+    if (!this.state.engaged) { if (Math.hypot(p.x - g.cx, p.y - g.cy) < 70) { A.engagedAt = performance.now(); this.setState({ engaged: true }); } return; }
+    const pts = this.polyPoints();
+    let best = -1, bd = 34;
+    for (let i = 0; i < this.state.count; i++) { const d = Math.hypot(p.x - pts[i].x, p.y - pts[i].y); if (d < bd) { bd = d; best = i; } }
+    if (best >= 0) { const node = A.slots[best]; A.space = { node: node, active: true, headDwell: 0 }; this.logEvent('NODE_OPEN', node); this.setState({}); return; }
+    let edge = -1, ed = 16;
+    for (let i = 0; i < this.state.count; i++) { const a = pts[i], b = pts[(i + 1) % this.state.count]; const d = this.distToSeg(p, a, b); if (d < ed) { ed = d; edge = i; } }
+    if (edge >= 0 && this.state.count < this.NODE_ORDER.length) this.addVertexOnEdge(edge);
+  }
+
+  handleMove(e) {
+    const A = this.A, p = this.evPos(e), s = A.size;
+    if (A.space) this.spaceMove(p, s);
+  }
+  handleUp(e) {
+    const A = this.A, p = this.evPos(e), s = A.size;
+    if (A.space) this.spaceUp(p, s);
+  }
+
+  spaceDown(p, s) {
+    const sp = this.A.space, node = sp.node;
+    if (node === 'location') {
+      const hz = this.headZone(s);
+      if (Math.hypot(p.x - hz.x, p.y - hz.y) < hz.r * 1.3) { sp.headDwell = performance.now(); return; }
+      sp.headDwell = 0; this.D.location.psych = false;
+      this.D.location.x = Math.max(0, Math.min(1, p.x / s)); this.D.location.y = Math.max(0, Math.min(1, p.y / s));
+      this.D.location.rx = null; this.D.location.ry = null; sp.hasDot = true;
+      this.logEvent('LOCATION_SET', [this.round2(this.D.location.x), this.round2(this.D.location.y)]);
+      this.setState({});
+    } else if (node === 'severity') { this.setSevFromY(p, s); }
+    else if (node === 'timing') { this.timingTap(p, s); }
+    else if (node === 'modifier') { this.modifierTap(p, s); }
+  }
+  spaceMove(p, s) {
+    const sp = this.A.space, node = sp.node;
+    if (node === 'location' && sp.hasDot && this.D.location.x !== null) {
+      const dx = p.x - this.D.location.x * s, dy = p.y - this.D.location.y * s;
+      if (Math.hypot(dx, dy) > 12) { this.D.location.rx = Math.max(0, Math.min(1, p.x / s)); this.D.location.ry = Math.max(0, Math.min(1, p.y / s)); }
+    } else if (node === 'severity') { this.setSevFromY(p, s); }
+  }
+  spaceUp(p, s) {
+    const sp = this.A.space;
+    if (sp.node === 'location' && this.D.location.rx !== null) this.logEvent('RADIATION_SET', [this.round2(this.D.location.rx), this.round2(this.D.location.ry)]);
+    if (sp.node === 'location') sp.headDwell = 0;
+  }
+  setSevFromY(p, s) {
+    const m = s * 0.12; const y = Math.max(m, Math.min(s - m, p.y));
+    const sv = Math.round(((s - m) - y) / (s - 2 * m) * 10);
+    if (this.D.severity.s !== sv) { this.D.severity.s = sv; this.logEvent('SEVERITY_SET', sv); this.setState({}); }
+  }
+  timingTap(p, s) {
+    const cg = this.clockGeom(s); const dist = Math.hypot(p.x - cg.cx, p.y - cg.cy);
+    if (dist > cg.R * 1.1) return;
+    const D = this.D.timing;
+    // remove existing near tap
+    if (D.o !== null) { const op = this.clockMarkPos(D.o, s); if (Math.hypot(p.x - op.x, p.y - op.y) < 18) { this.logEvent('CLOCK_MARK_REMOVE', D.o); D.o = null; this.setState({}); return; } }
+    for (let i = 0; i < D.m.length; i++) { const mp = this.clockMarkPos(D.m[i], s); if (Math.hypot(p.x - mp.x, p.y - mp.y) < 16) { this.logEvent('CLOCK_MARK_REMOVE', D.m[i]); D.m.splice(i, 1); this.setState({}); return; } }
+    const h = this.clockHour(p, s);
+    if (D.o === null) { D.o = h; this.logEvent('CLOCK_ONSET', h); }
+    else if (D.m.length < 7) { D.m.push(h); this.logEvent('CLOCK_MARK_ADD', h); }
+    this.setState({});
+  }
+  modifierTap(p, s) {
+    const act = this.D.modifier.active;
+    for (let i = 0; i < this.MODS.length; i++) {
+      const m = this.MODS[i]; const ai = act.indexOf(m.code);
+      const pos = ai >= 0 ? this.modBodyPos(ai, s) : this.modRingPos(i, s);
+      if (Math.hypot(p.x - pos.x, p.y - pos.y) < 24) {
+        if (ai >= 0) { act.splice(ai, 1); this.logEvent('MODIFIER_DEACTIVATE', m.code); }
+        else if (act.length < 4) { act.push(m.code); this.logEvent('MODIFIER_ACTIVATE', m.code); }
+        this.setState({}); return;
+      }
+    }
+  }
+  closeSpace() { const sp = this.A.space; if (sp) { this.A.interacted[sp.node] = true; this.A.space = null; this.setState({}); } }
+
+  addVertexOnEdge(edgeI) {
+    const A = this.A; const used = new Set(A.slots); const fallback = this.NODE_ORDER.find(k => !used.has(k)); if (!fallback) return;
+    const at = edgeI + 1; A.slots.splice(at, 0, fallback);
+    const pts = this.polyPoints(); const a = pts[edgeI], b = pts[edgeI % pts.length];
+    A.ripples.push({ x: (a.x + b.x) / 2, y: (a.y + b.y) / 2, t0: performance.now() });
+    this.setState({ count: A.slots.length });
+    this.suggestNextParam(at);
+  }
+  async suggestNextParam(at) {
+    const A = this.A; const used = new Set(A.slots.filter((k, i) => i !== at));
+    const options = this.NODE_ORDER.filter(k => !used.has(k)); if (!options.length) return;
+    const system = 'A clinician is building a triage query. Active dimensions: ' + JSON.stringify(A.slots.filter((k, i) => i !== at)) + '. From this list: ' + options.join(', ') + ' reply with exactly one word naming the single most informative next dimension to add. One word only.';
+    try {
+      const r = await this.callProvider(system, JSON.stringify(A.slots), 12);
+      const w = (r.text.toLowerCase().match(/location|severity|timing|modifier/) || [])[0];
+      this.lastSuggTokens = r.inTok + '+' + r.outTok;
+      if (w && !used.has(w)) { A.slots[at] = w; this.logEvent('NODE_SUGGESTION', w); this.setState({}); }
+    } catch (err) {}
+  }
+
+  // ---------- API ----------
+  systemPrompt() { return this.SYSTEM_TEMPLATE.replace(/\{LANGUAGE\}/g, this.LANG_FULL[this.state.language] || 'English'); }
+  estTokens(str) { return Math.ceil(str.length / 4); }
+  modelName() { return this.state.provider === 'gemini' ? 'gemini-2.5-flash' : 'gpt-4o'; }
+  async callProvider(system, userContent, maxTok) {
+    const mt = maxTok || 220; const provider = this.state.provider;
+    if (provider === 'openai') {
+      const msgs = (system ? [{ role: 'system', content: system }] : []).concat([{ role: 'user', content: userContent }]);
+      const res = await fetch('/api/openai', { method: 'POST', headers: { 'content-type': 'application/json' }, body: JSON.stringify({ model: 'gpt-4o', max_tokens: mt, messages: msgs }) });
+      const j = await res.json();
+      if (!res.ok) { throw new Error('OpenAI ' + res.status + ': ' + (j && j.error ? JSON.stringify(j.error).slice(0, 120) : 'request failed')); }
+      return { text: j.choices[0].message.content || '', inTok: j.usage.prompt_tokens, outTok: j.usage.completion_tokens, model: 'gpt-4o' };
+    }
+    if (provider === 'gemini') {
+      const body = { contents: [{ role: 'user', parts: [{ text: userContent }] }], generationConfig: { maxOutputTokens: mt } };
+      if (system) body.system_instruction = { parts: [{ text: system }] };
+      const res = await fetch('/api/gemini', { method: 'POST', headers: { 'content-type': 'application/json' }, body: JSON.stringify(body) });
+      const j = await res.json();
+      if (!res.ok) { throw new Error('Gemini ' + res.status + ': ' + (j && j.error ? JSON.stringify(j.error).slice(0, 120) : 'request failed')); }
+      const cand = (j.candidates || [])[0] || {};
+      const text = ((cand.content && cand.content.parts) || []).map(x => x.text || '').join('');
+      return { text, inTok: (j.usageMetadata || {}).promptTokenCount, outTok: (j.usageMetadata || {}).candidatesTokenCount, model: 'gemini-2.5-flash' };
+    }
+    throw new Error('Unknown provider: ' + provider);
+  }
+  async saveRows(rows) {
+    try {
+      const res = await fetch('/save-session', { method: 'POST', headers: { 'content-type': 'application/json' }, body: JSON.stringify(rows) });
+      return await res.json();
+    } catch (err) { return { success: false, error: String(err.message || err) }; }
+  }
+
+  parseResponse(text) {
+    const phrase = ((text.match(/PHRASE:\s*([\s\S]+?)(?:\nTRANSFORM:|$)/i) || [])[1] || '').trim();
+    const tLine = ((text.match(/TRANSFORM:\s*(.+)/i) || [])[1] || '').toLowerCase();
+    const transform = tLine.match(/darker|lighter|warmer|cooler|scattered|condensed|slower|faster|heavy|airy|pulsing|still|sharp|soft/g) || [];
+    const u = parseInt((text.match(/URGENCY:\s*(\d)/i) || [])[1]);
+    const action = ((text.match(/ACTION:\s*(breathe|ground|move|rest|journal|connect|none)/i) || [])[1] || 'none').toLowerCase();
+    return { phrase, transform, urgency: isNaN(u) ? 0 : Math.max(0, Math.min(2, u)), action };
+  }
+  applyTransform(list) {
+    const t = this.A.tgt;
+    for (const d of list) {
+      if (d === 'darker') t.lum = -1; else if (d === 'lighter') t.lum = 1;
+      else if (d === 'warmer') t.warm = 1; else if (d === 'cooler') t.warm = -1;
+      else if (d === 'scattered') t.spread = 1.28; else if (d === 'condensed') t.spread = 0.72;
+      else if (d === 'slower') t.speed = 0.4; else if (d === 'faster') t.speed = 2.2;
+      else if (d === 'heavy') t.density = 1.7; else if (d === 'airy') t.density = 0.5;
+      else if (d === 'pulsing') t.pulse = 1; else if (d === 'still') t.pulse = 0;
+      else if (d === 'sharp') t.blur = 0; else if (d === 'soft') t.blur = 2.4;
+    }
+  }
+  actionLabelText(a) { return { breathe: 'Breathe with the shape', ground: 'Notice what is around you', move: 'Gentle movement helps', rest: 'Rest and hydrate', journal: 'Write what you noticed', connect: 'Reach out to someone you trust', none: '' }[a] || ''; }
+
+  async doSubmit(q) {
+    if (this.state.loading) return;
+    const payloadObj = this.buildPayload(q); const payloadString = JSON.stringify(payloadObj);
+    const est = this.estTokens(payloadString);
+    const system = this.systemPrompt();
+    this.logEvent('SUBMIT', q);
+    this.A.submitAt = performance.now(); this.A.ripples.push({ x: this.geom().cx, y: this.geom().cy, t0: performance.now() });
+    this.setState({ loading: true, phraseOpacity: 0, errorMsg: '', estBefore: est });
+    try {
+      const r = await this.callProvider(system, payloadString, 220);
+      const parsed = this.parseResponse(r.text);
+      this.applyTransform(parsed.transform);
+      this.A.urgency = parsed.urgency;
+      this.A.action = (parsed.urgency === 2 || parsed.action === 'none') ? null : { type: parsed.action, t0: performance.now() };
+      const D = this.D;
+      const rec = {
+        session_id: this.state.sessionId, participant_id: this.state.participantId, condition_order: this.state.conditionOrder,
+        timestamp: new Date().toISOString(), mode: 'interface', query_type: q, language: this.state.language, model: r.model,
+        payload_string: payloadString, payload_chars: payloadString.length,
+        input_tokens_actual: r.inTok, output_tokens_actual: r.outTok,
+        response_text: r.text, phrase_text: parsed.phrase, transform_value: parsed.transform.join(' '), urgency_value: parsed.urgency, action_value: parsed.action,
+        severity: D.severity.s, location_x: D.location.x, location_y: D.location.y, radiation_x: D.location.rx, radiation_y: D.location.ry,
+        onset_clock: D.timing.o, recurrence_marks: D.timing.m.join('|'), active_modifiers: D.modifier.active.join('|'),
+        sos_triggered: this.state.sosTriggered, estimated_tokens_before_call: est, suggestion_tokens: this.lastSuggTokens
+      };
+      const result = { phrase: parsed.phrase, transform: parsed.transform.join(', '), urgency: parsed.urgency, action: parsed.action, inTok: r.inTok, outTok: r.outTok, model: r.model, lang: this.state.language, q: q, ts: rec.timestamp };
+      this.setState(s => ({ loading: false, sessions: s.sessions.concat(rec), lastResult: result, lastActualIn: r.inTok, phrase: parsed.phrase, actionLabel: parsed.urgency === 2 ? 'seek care \u2014 contact a provider' : this.actionLabelText(parsed.action) }));
+      requestAnimationFrame(() => requestAnimationFrame(() => this.setState({ phraseOpacity: 1 })));
+      this.saveRows([rec]);
+    } catch (err) {
+      this.setState({ loading: false, errorMsg: String(err.message || err) });
+      setTimeout(() => this.setState({ errorMsg: '' }), 6000);
+    }
+  }
+
+  async doForce() {
+    if (this.state.loading) { return; }
+    this.setState({ forcing: true });
+    await this.doSubmit('wh');
+    this.setState({ forcing: false });
+  }
+
+  async doSubmitText() {
+    const txt = this.state.textInput.trim(); if (!txt || this.state.textLoading) return;
+    this.setState({ textLoading: true, errorMsg: '' });
+    try {
+      const r = await this.callProvider(null, txt, 260);
+      const rec = { session_id: this.state.sessionId, participant_id: this.state.participantId, condition_order: this.state.conditionOrder, timestamp: new Date().toISOString(), mode: 'text', query_type: '', language: this.state.language, model: r.model, payload_string: txt, payload_chars: txt.length, input_tokens_actual: r.inTok, output_tokens_actual: r.outTok, response_text: r.text, phrase_text: '', transform_value: '', urgency_value: '', action_value: '', severity: '', location_x: '', location_y: '', radiation_x: '', radiation_y: '', onset_clock: '', recurrence_marks: '', active_modifiers: '', sos_triggered: this.state.sosTriggered, estimated_tokens_before_call: this.estTokens(txt), suggestion_tokens: '' };
+      this.setState(s => ({ textLoading: false, textResponse: r.text, sessions: s.sessions.concat(rec) }));
+      this.saveRows([rec]);
+    } catch (err) { this.setState({ textLoading: false, errorMsg: String(err.message || err) }); setTimeout(() => this.setState({ errorMsg: '' }), 6000); }
+  }
+
+  // ---------- CSV ----------
+  doExportCsv() {
+    const cols = ['session_id', 'participant_id', 'condition_order', 'timestamp', 'mode', 'query_type', 'language', 'model', 'payload_string', 'payload_chars', 'input_tokens_actual', 'output_tokens_actual', 'response_text', 'phrase_text', 'transform_value', 'urgency_value', 'action_value', 'severity', 'location_x', 'location_y', 'radiation_x', 'radiation_y', 'onset_clock', 'recurrence_marks', 'active_modifiers', 'sos_triggered', 'estimated_tokens_before_call', 'suggestion_tokens'];
+    const rows = [cols];
+    for (const e of this.state.sessions) rows.push(cols.map(c => e[c]));
+    const csv = rows.map(r => r.map(v => { v = String(v === null || v === undefined ? '' : v); return /[",\n]/.test(v) ? '"' + v.replace(/"/g, '""') + '"' : v; }).join(',')).join('\n');
+    try { navigator.clipboard.writeText(csv); } catch (e) {}
+    const blob = new Blob([csv], { type: 'text/csv' });
+    const a = document.createElement('a'); a.href = URL.createObjectURL(blob); a.download = 'sessions.csv'; a.click();
+    setTimeout(() => URL.revokeObjectURL(a.href), 2000);
+    this.setState({ csvCopied: true }); setTimeout(() => this.setState({ csvCopied: false }), 1800);
+  }
+
+  async doSaveSession() {
+    const rows = this.state.sessions;
+    const res = await this.saveRows(rows);
+    if (res.success) {
+      this.setState({ saveMsg: 'Session saved — ' + res.rows_saved + ' rows written to sessions.csv' });
+    } else {
+      this.setState({ saveMsg: 'Save failed: ' + (res.error || 'unknown error') });
+    }
+    setTimeout(() => this.setState({ saveMsg: '' }), 4000);
+  }
+
+  cycleLang() { const i = this.LANGS.indexOf(this.state.language); const nx = this.LANGS[(i + 1) % this.LANGS.length]; this.logEvent('LANGUAGE_CHANGE', nx); this.setState({ language: nx }); }
+  setProvider(p) { if (p !== this.state.provider) { this.logEvent('MODEL_CHANGE', p === 'gemini' ? 'gemini-2.5-flash' : 'gpt-4o'); this.setState({ provider: p }); } }
+  openSos() { this.logEvent('SOS_TRIGGERED', ''); this.setState({ sosOpen: true, sosTriggered: true }); }
+
+  finishTutorial() { try { localStorage.setItem('apx5_tut_done', '1'); } catch (e) {} this.setState({ tutorialStep: -1 }); }
+  drawTutorial(t) {
+    const c = this.tutRef.current; if (!c) return;
+    const ctx = c.getContext('2d'), dpr = window.devicePixelRatio || 1, s = this.A.tutSize;
+    ctx.setTransform(dpr, 0, 0, dpr, 0, 0); ctx.clearRect(0, 0, s, s);
+    const acc = this.accent(), cx = s / 2, cy = s / 2, R = s * 0.24; const step = this.state.tutorialStep;
+    const poly = (nn, scale, hi) => { scale = scale || 1; ctx.strokeStyle = this.hexA(acc, 0.8); ctx.lineWidth = 1.6; ctx.beginPath(); for (let k = 0; k < nn; k++) { const a = -Math.PI / 2 + k * 2 * Math.PI / nn; const x = cx + Math.cos(a) * R * scale, y = cy + Math.sin(a) * R * scale; k ? ctx.lineTo(x, y) : ctx.moveTo(x, y); } ctx.closePath(); ctx.fillStyle = this.hexA(acc, 0.12); ctx.fill(); ctx.stroke(); for (let k = 0; k < nn; k++) { const a = -Math.PI / 2 + k * 2 * Math.PI / nn; const x = cx + Math.cos(a) * R * scale, y = cy + Math.sin(a) * R * scale; ctx.fillStyle = (hi === k) ? '#fff' : this.hexA(acc, 0.95); ctx.beginPath(); ctx.arc(x, y, 6, 0, 7); ctx.fill(); } };
+    const hand = (x, y, tap) => { if (tap) { ctx.strokeStyle = this.hexA(acc, 0.6 * (1 - tap)); ctx.lineWidth = 2; ctx.beginPath(); ctx.arc(x, y, 8 + tap * 22, 0, 7); ctx.stroke(); } ctx.fillStyle = '#e8e6e1'; ctx.beginPath(); ctx.arc(x, y, 7, 0, 7); ctx.fill(); ctx.strokeStyle = 'rgba(12,14,18,0.6)'; ctx.lineWidth = 2; ctx.stroke(); };
+    const loop = 3200, ph = (t % loop) / loop;
+    if (step === 0) { const vx = cx, vy = cy - R; poly(3, 1, ph > 0.3 && ph < 0.75 ? 0 : -1); if (ph < 0.25) { const k = ph / 0.25; hand(cx + (vx - cx) * k, cy + 60 + (vy - (cy + 60)) * k, 0); } else if (ph < 0.4) { hand(vx, vy, (ph - 0.25) / 0.15); } else if (ph < 0.85) { const k = (ph - 0.55) / 0.3; ctx.strokeStyle = this.hexA(acc, 0.4); ctx.strokeRect(cx - 70, cy - 40, 140, 80); hand(cx - 50 + Math.max(0, k) * 100, cy, 0); } }
+    else if (step === 1) { const nn = 3; const a0 = -Math.PI / 2, a1 = a0 + 2 * Math.PI / nn; const mx = cx + Math.cos((a0 + a1) / 2) * R, my = cy + Math.sin((a0 + a1) / 2) * R; poly(ph > 0.5 ? 4 : 3); if (ph < 0.3) { const k = ph / 0.3; hand(cx + 70 + (mx - cx - 70) * k, cy + 60 + (my - cy - 60) * k, 0); } else if (ph < 0.5) hand(mx, my, (ph - 0.3) / 0.2); }
+    else if (step === 2) { poly(4); const bx = cx, by = cy + R + 40; if (ph < 0.5) hand(bx, by, ph / 0.5); }
+    else if (step === 3) { const sc = 1 + 0.06 * Math.sin(t / 700); poly(4, sc); }
+    ctx.fillStyle = 'rgba(232,230,225,0.35)'; ctx.font = '10px "IBM Plex Mono", monospace'; ctx.textAlign = 'center';
+    ctx.fillText(['tap a node', 'tap an edge to add', 'pick a query', 'breathe'][step] || '', cx, s - 10);
+  }
+
+  renderVals() {
+    const s = this.state; const A = this.A;
+    const dots = [0, 1, 2, 3].map(i => (i === s.tutorialStep ? '\u25CF' : '\u25CB')).join(' ');
+    const payloadString = this.payloadStr(null);
+    const tokens = this.tokenize(payloadString);
+    const est = this.estTokens(payloadString);
+    const actualNote = s.lastActualIn !== null ? ('Actual: ' + s.lastActualIn + ' tokens (' + (s.lastActualIn - s.estBefore >= 0 ? '+' : '') + (s.lastActualIn - s.estBefore) + ' from estimate)') : '';
+    const r = s.lastResult;
+    return {
+      setCanvas: (el) => this.setCanvas(el), setTut: (el) => this.setTut(el),
+      isPatient: s.screen === 'patient', isResearcher: s.screen === 'researcher',
+      toPatient: () => this.setState({ screen: 'patient' }), toResearcher: () => this.setState({ screen: 'researcher' }),
+      patBg: s.screen === 'patient' ? 'rgba(232,230,225,0.16)' : 'transparent', patFg: s.screen === 'patient' ? '#e8e6e1' : 'rgba(232,230,225,0.45)',
+      resBg: s.screen === 'researcher' ? 'rgba(232,230,225,0.16)' : 'transparent', resFg: s.screen === 'researcher' ? '#e8e6e1' : 'rgba(232,230,225,0.45)',
+      langLabel: s.language, cycleLang: () => this.cycleLang(),
+      openSos: () => this.openSos(), dismissSos: () => this.setState({ sosOpen: false }), sosOpen: s.sosOpen, sosText: this.SOS_TEXT[s.language],
+
+      onDown: e => this.handleDown(e), onMove: e => this.handleMove(e), onUp: e => this.handleUp(e),
+      spaceOpen: !!A.space, doneSpace: () => this.closeSpace(),
+      spaceDoneVisible: !!A.space && (A.space.node !== 'location' || this.D.location.x !== null),
+      spaceHint: A.space ? ({ location: 'tap a location \u00b7 drag to show radiation \u00b7 hold the head for mental context', severity: 'drag up and down \u2014 the face is the scale', timing: 'tap onset \u00b7 tap again to mark recurrence \u00b7 tap a dot to remove', modifier: 'tap an icon to attach it \u00b7 up to four' }[A.space.node] || '') : '',
+
+      removeVertex: () => { const A = this.A; if (A.slots.length <= 3) return; const k = A.slots.pop(); delete A.interacted[k]; this.setState({ count: A.slots.length }); },
+      addVertex: () => { const A = this.A; if (A.slots.length >= this.NODE_ORDER.length) return; const used = new Set(A.slots); const nk = this.NODE_ORDER.find(k => !used.has(k)); if (!nk) return; A.slots.push(nk); this.setState({ count: A.slots.length }); },
+      plusOpacity: s.count < this.NODE_ORDER.length ? 1 : 0.25, minusOpacity: s.count > 3 ? 1 : 0.25,
+
+      subWh: () => this.doSubmit('wh'), subCa: () => this.doSubmit('ca'), subDu: () => this.doSubmit('du'), subSe: () => this.doSubmit('se'), subEs: () => this.doSubmit('es'),
+      submitOpacity: this.hasAnyData() && !A.space ? 1 : 0.35,
+
+      phrase: s.phrase, actionLabel: s.actionLabel, phraseOpacity: s.phraseOpacity, showPhrase: !!s.phrase,
+
+      sessionId: s.sessionId, participantId: s.participantId, onParticipant: e => this.setState({ participantId: e.target.value }),
+      conditionOrder: s.conditionOrder, setIfaceFirst: () => this.setState({ conditionOrder: 'interface' }), setTextFirst: () => this.setState({ conditionOrder: 'text' }),
+      ifaceBg: s.conditionOrder === 'interface' ? 'rgba(232,230,225,0.16)' : 'transparent', ifaceFg: s.conditionOrder === 'interface' ? '#e8e6e1' : 'rgba(232,230,225,0.45)',
+      textFirstBg: s.conditionOrder === 'text' ? 'rgba(232,230,225,0.16)' : 'transparent', textFirstFg: s.conditionOrder === 'text' ? '#e8e6e1' : 'rgba(232,230,225,0.45)',
+      setOpenai: () => this.setProvider('openai'), setGemini: () => this.setProvider('gemini'),
+      openaiBg: s.provider === 'openai' ? 'rgba(232,230,225,0.16)' : 'transparent', openaiFg: s.provider === 'openai' ? '#e8e6e1' : 'rgba(232,230,225,0.45)',
+      geminiBg: s.provider === 'gemini' ? 'rgba(232,230,225,0.16)' : 'transparent', geminiFg: s.provider === 'gemini' ? '#e8e6e1' : 'rgba(232,230,225,0.45)',
+      exportCsv: () => this.doExportCsv(), csvLabel: s.csvCopied ? 'COPIED \u2713' : 'EXPORT CSV',
+      saveSession: () => this.doSaveSession(),
+      hasSaveMsg: !!s.saveMsg, saveMsg: s.saveMsg,
+
+      gestureRows: s.gestureLog.slice().reverse(), gestureEmpty: s.gestureLog.length === 0,
+      payloadTokens: tokens, payloadChars: payloadString.length, estToks: est, actualNote: actualNote,
+      forceTrigger: () => this.doForce(), forceLabel: s.loading ? '\u00b7 \u00b7 \u00b7' : 'FORCE TRIGGER',
+      hasResult: !!r, noResult: !r,
+      rPhrase: r ? r.phrase : '', rTransform: r ? r.transform : '', rUrg: r ? String(r.urgency) : '', rAction: r ? r.action : '', rIn: r ? r.inTok : '', rOut: r ? r.outTok : '', rModel: r ? r.model : '', rLang: r ? r.lang : '', rQ: r ? r.q : '', rTs: r ? r.ts : '',
+
+      textInput: s.textInput, onTextChange: e => this.setState({ textInput: e.target.value }), submitText: () => this.doSubmitText(), textSubmitLabel: s.textLoading ? '\u00b7 \u00b7 \u00b7' : 'SUBMIT TEXT', textResponse: s.textResponse, hasTextResp: !!s.textResponse,
+
+      hasError: !!s.errorMsg, errorMsg: s.errorMsg,
+      tutorialVisible: s.tutorialStep >= 0 && s.screen === 'patient', tutorialDots: dots,
+      tutorialNext: () => { if (s.tutorialStep >= 3) this.finishTutorial(); else this.setState({ tutorialStep: s.tutorialStep + 1 }); },
+      tutorialSkip: e => { e.stopPropagation(); this.finishTutorial(); }
+    };
+  }
+}
+</script>
+
+
+</body></html>
