@@ -79,7 +79,7 @@ app.post('/api/gemini', async (req, res) => {
     if (!apiKey) {
       return res.status(500).json({ error: 'GEMINI_API_KEY not set in .env' });
     }
-    const url = 'https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key=' + encodeURIComponent(apiKey);
+    const url = 'https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key=' + encodeURIComponent(apiKey);
     const upstream = await fetch(url, {
       method: 'POST',
       headers: { 'content-type': 'application/json' },

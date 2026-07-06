@@ -880,7 +880,7 @@ class Component extends DCLogic {
   // ---------- API ----------
   systemPrompt() { return this.SYSTEM_TEMPLATE.replace(/\{LANGUAGE\}/g, this.LANG_FULL[this.state.language] || 'English'); }
   estTokens(str) { return Math.ceil(str.length / 4); }
-  modelName() { return this.state.provider === 'gemini' ? 'gemini-1.5-flash' : 'gpt-4o'; }
+  modelName() { return this.state.provider === 'gemini' ? 'gemini-2.5-flash' : 'gpt-4o'; }
   async callProvider(system, userContent, maxTok) {
     const mt = maxTok || 220; const provider = this.state.provider;
     if (provider === 'openai') {
@@ -898,7 +898,7 @@ class Component extends DCLogic {
       if (!res.ok) { throw new Error('Gemini ' + res.status + ': ' + (j && j.error ? JSON.stringify(j.error).slice(0, 120) : 'request failed')); }
       const cand = (j.candidates || [])[0] || {};
       const text = ((cand.content && cand.content.parts) || []).map(x => x.text || '').join('');
-      return { text, inTok: (j.usageMetadata || {}).promptTokenCount, outTok: (j.usageMetadata || {}).candidatesTokenCount, model: 'gemini-1.5-flash' };
+      return { text, inTok: (j.usageMetadata || {}).promptTokenCount, outTok: (j.usageMetadata || {}).candidatesTokenCount, model: 'gemini-2.5-flash' };
     }
     throw new Error('Unknown provider: ' + provider);
   }
@@ -1009,7 +1009,7 @@ class Component extends DCLogic {
   }
 
   cycleLang() { const i = this.LANGS.indexOf(this.state.language); const nx = this.LANGS[(i + 1) % this.LANGS.length]; this.logEvent('LANGUAGE_CHANGE', nx); this.setState({ language: nx }); }
-  setProvider(p) { if (p !== this.state.provider) { this.logEvent('MODEL_CHANGE', p === 'gemini' ? 'gemini-1.5-flash' : 'gpt-4o'); this.setState({ provider: p }); } }
+  setProvider(p) { if (p !== this.state.provider) { this.logEvent('MODEL_CHANGE', p === 'gemini' ? 'gemini-2.5-flash' : 'gpt-4o'); this.setState({ provider: p }); } }
   openSos() { this.logEvent('SOS_TRIGGERED', ''); this.setState({ sosOpen: true, sosTriggered: true }); }
 
   finishTutorial() { try { localStorage.setItem('apx5_tut_done', '1'); } catch (e) {} this.setState({ tutorialStep: -1 }); }
